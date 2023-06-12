@@ -6,5 +6,31 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hello-world';
+
+  title = 'binding';
+
+  public name = "Simplilearn"
+
+  public topic = "Data Binding"
+
+  public image="assets/Wavy_Bus-33_Single-03.jpg"
+
+  public random = ""
+  
+  onClick(){
+
+    console.log("Thanks for subscribing")
+
+  }
+
+  submit(){
+
+    console.log("Form Submitted !")
+
+  }
+
+
+
+  
 }
+
